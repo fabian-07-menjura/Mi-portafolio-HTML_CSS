@@ -1,0 +1,278 @@
+body {
+  color: rgb(57, 55, 55);
+  font-family: "Alegreya", serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* -------------------------------------------- */
+
+.header {
+  background-color: rgb(244, 235, 235);
+  padding-bottom: 70px;
+}
+.navegacion {
+  display: flex;
+  padding-top: 10px;
+}
+
+.tituloNav {
+  color: rgb(57, 55, 55);
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 9%;
+  padding-top: 10px;
+}
+.listaNav {
+  display: flex;
+  font-size: 20px;
+  padding-left: 20%;
+  padding-top: 10px;
+}
+.listaNav li {
+  padding-left: 50px;
+}
+.listaNav li a {
+  color: rgb(57, 55, 55);
+  text-decoration: none;
+}
+
+/* ---------------------------------------------- */
+
+.sobreMi {
+  display: flex;
+  padding-top: 30px;
+}
+.imgSobremi {
+  border-radius: 100%;
+  height: 30vw;
+  margin-right: 80px;
+  padding-top: 15px;
+  width: 30vw;
+}
+.tituloSobreMi {
+  color: rgb(57, 55, 55);
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 10%;
+}
+.infoSobreMi {
+  padding-top: 100px;
+}
+
+.parrafoSobreMi {
+  color: rgb(57, 55, 55);
+  font-size: 25px;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.listaSobreMi {
+  display: flex;
+  font-size: 20px;
+  margin-left: 3%;
+  margin-top: 30px;
+}
+.listaSobreMi li {
+  margin-left: 80px;
+}
+.listaSobreMi li a {
+  color: rgb(57, 55, 55);
+  text-decoration: none;
+}
+
+/* ------------------------------------------ */
+
+.inforSobreMi {
+  background-color: rgb(227, 230, 237);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.subtituloSobreMi {
+  color: rgb(57, 55, 55);
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 7%;
+}
+.descripcionSobreMi {
+  font-size: 20px;
+  padding-left: 7%;
+  padding-right: 40%;
+  padding-top: 20px;
+}
+
+/* -------------------style skills----------------- */
+
+.sectionSkills {
+  background-color: rgb(244, 235, 235);
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+.tituloSkills {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.listaSkills {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.listaSkills li img {
+  height: 11vw;
+  width: 11vw;
+}
+
+/* -------------------style hobbies------------------ */
+
+.sectionHobbies {
+  background-color: rgb(244, 235, 235);
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.tituloHobbies {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.listaHobbies {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 60px;
+  padding-right: 70px;
+}
+.listaHobbies li img {
+  height: 10vw;
+  width: 10vw;
+}
+
+/* --------------------style formación-------------------- */
+
+.sectionFormacion {
+  background-color: rgb(227, 230, 237);
+  padding-bottom: 90px;
+  padding-top: 80px;
+}
+.tituloFormacion {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.listaFormacion {
+  display: flex;
+  padding-left: 180px;
+}
+.listaFormacion li {
+  padding-left: 40px;
+}
+.listaFormacion li img {
+  height: 20vw;
+  width: 20vw;
+}
+.listaFormacion li h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.listaFormacion li p {
+  font-size: 18px;
+}
+
+/* ----------------------style experiencia---------------------- */
+
+.sectionExperiencia {
+  background-color: rgb(244, 235, 235);
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.tituloExperiencia {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.listaExperiencia {
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 90px;
+  padding-right: 80px;
+}
+
+.listaExperiencia li img {
+  height: 15vw;
+  margin-left: 15px;
+  width: 20vw;
+}
+.listaExperiencia li p {
+  margin-left: 15px;
+  width: 250px;
+}
+
+/* --------------------style contacto---------------------- */
+
+.sectionContacto {
+  background-color: rgb(227, 230, 237);
+  display: flex;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.divContacto {
+  padding-left: 30px;
+}
+.tituloContacto {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.parrafoContacto {
+  font-size: 20px;
+}
+.formularioContacto {
+  display: grid;
+  padding-top: 20px;
+}
+.formularioContacto label {
+  font-size: 10vw;
+}
+.formularioContacto input {
+  border: none;
+  font-size: 20px;
+  height: 1.5vw;
+  padding-bottom: 20px;
+  width: 600px;
+}
+.inputMensaje {
+  height: 140px;
+  width: 550px;
+}
+.formularioContacto button {
+  background-color: rgb(80, 80, 184);
+  border: none;
+  color: white;
+  font-size: 18px;
+  height: 3vw;
+  width: 15vw;
+}
+.imagenContacto {
+  height: 31vw;
+  padding-left: 110px;
+  width: 32vw;
+}
+
+/* ----------------------style pie de pagina--------------------- */
+.pieDePagina {
+  height: 90px;
+  padding-top: 50px;
+}
+.tituloPieDePagina {
+  font-size: 20px;
+  text-align: center;
+}
+.parrafoPieDePagina {
+  font-size: 20px;
+  text-align: center;
+}
